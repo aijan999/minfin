@@ -4,9 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <title>Document</title>
 </head>
 <body>
-    <p>hello world</p>
+
+    <div class="wrapper">
+        <header>
+            <div class="banner">
+                <div class="container">
+                    <div class="row banner__row align-items-center">
+                        <div class="col d-flex minfin-address ">
+                            <p class="me-3">
+                                <img src="images/icons/phone-icon.svg" alt="" class="me-2">
+                                Тел: +996 312 607 080
+                            </p>
+                            <p>
+                                <img src="images/icons/map-pin.svg" alt="" class="me-2">
+                                Адрес: бульвар Эркиндик, 58
+                            </p>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <div class="d-flex social-media me-4">
+                                <a href="" class="me-2">
+                                   <img src="images/icons/social/Facebook.svg" alt="">
+                                </a>
+                                <a href="" class="me-2">
+                                   <img src="images/icons/social/instagram.svg" alt="">
+                                </a>
+                                <a href="" class="me-2">
+                                   <img src="images/icons/social/telegram.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="localization-languages d-flex">
+                                <a href="#" class="text-uppercase me-2">Кырг</a>
+                                <a href="#" class="text-uppercase me-2 active">Рус</a>
+                                <a href="#" class="text-uppercase me-2">Eng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brand">
+                <div class="container">
+                    <div class="row brand__row align-items-center">
+                        <div class="col-md-8 col-lg-6 col-xl-6">
+                            <div class="d-flex">
+                                <img src="images/logo/Logo.svg" alt="" class="rounded-circle me-3 brand-logo" height="85">
+                                <p class="text-uppercase brand-name">министерство финансов Кыргызской Республики</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav>
+                <div class="container">
+                    <div class="row navigation justify-content-between align-items-center">
+                        <div class="col">
+                            <ul class="nav__items d-flex">
+                                <li class="nav__item"><a href="#" class="item__link text-uppercase">О министерстве</a></li>
+                                <li class="nav__item"><a href="#" class="item__link text-uppercase">Деятельность</a></li>
+                                <li class="nav__item"><a href="#" class="item__link text-uppercase">Документы</a></li>
+                                <li class="nav__item"><a href="#" class="item__link text-uppercase">Пресс-центр</a></li>
+                                <li class="nav__item"><a href="#" class="item__link text-uppercase">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="col d-flex justify-content-end search">
+                            <ul class="nav__items d-flex">
+                                <li class="nav__item">
+                                    <a href="#" class="item__link text-uppercase d-flex">
+                                        <img class="search-icon me-2" src="images/icons/search-icon.svg" alt="">
+                                        Поиск
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <main>
+            <section id="main-carousel">
+                <div class="container">
+                    <div class="row main-carousel">
+                        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://wallpaperaccess.com/full/2651908.png" class="d-block w-100" alt="...">
+                                    <p></p>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://wallpaperaccess.com/full/2651907.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://wallpaperaccess.com/full/2651906.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+<script src="js/jquery-3.6.0.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
